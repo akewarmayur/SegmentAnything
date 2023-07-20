@@ -36,6 +36,7 @@ The output will be stored in boxedImages, maskedImages and promptImages folder b
 
 ### Generate Data
 This uses [Grounding DINO](https://github.com/IDEA-Research/GroundingDINO) model with SAM model
+
 Grounding DINO model provide bounding box as per input class
 ![image](https://github.com/akewarmayur/SegmentAnything/assets/31464781/c1a04d30-ef34-4d0a-8fc9-51a6b6fff56b)
 
