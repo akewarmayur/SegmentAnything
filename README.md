@@ -19,7 +19,7 @@ pip install git+https://github.com/facebookresearch/segment-anything.git
 
 ### SAM Inference
 ```
-python SAM/samInference.py ython --path 'image_path or folder_containing_images' --box_prompt "[]" --point_prompt "[]" --segment_all 'True' --box_all 'False --show_image 'True' --colab 'False'
+python SAM/samInference.py -path 'image_path or folder_containing_images' --box_prompt "[]" --point_prompt "[]" --segment_all 'True' --box_all 'False' --show_image 'True' --colab 'False'
 ```
 * --path : folder or image path
 * --box_prompt : provide list of boxes in (x1,y1,x2,y2) format #[40,50,100,300]
