@@ -58,19 +58,19 @@ This uses the capebility of [CLIP](https://github.com/openai/CLIP) model to clas
 
 #### Generate Data using CLIP & SAM
 ```
-python clipSAMgenerateData.py --folder_name name_of_folder_containing_images --object_names truck,wheels
+python clipSAMgenerateData.py --folder_name name_of_folder_containing_images --object_names car,wheels
 ```
 
 #### Detect Objects using CLIP & SAM
 ```
 python detectObjects.py --folder_name name_of_folder_containing_images --object_names truck,glass
 ```
-Results : [('a photo of a truck', 0.955078125), ('a photo of a glass', 0.017486572265625)]
+Results : [('a photo of a car', 0.955078125), ('a photo of a glass', 0.017486572265625)]
 ![image](https://github.com/akewarmayur/SegmentAnything/assets/31464781/90b61362-5a5b-4e13-b64c-ce1b046eb50a)
 
 #### Classify Images using CLIP & SAM
 ```
-python clipSAM/classifyImage.py --folder_name name_of_folder_containing_images --object_names truck,wheels
+python clipSAM/classifyImage.py --folder_name name_of_folder_containing_images --object_names car,wheels
 ```
 ![image](https://github.com/akewarmayur/SegmentAnything/assets/31464781/bb82ee70-f44b-459f-a890-49e2bdac29bc)
 
