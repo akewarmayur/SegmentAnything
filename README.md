@@ -10,3 +10,8 @@ The Segment Anything Model (SAM) produces high quality object masks from input p
 
 ![image](https://github.com/akewarmayur/SegmentAnything/assets/31464781/757bbda2-9543-44b7-bf6a-15dfd164899b)
 
+## Installation
+```
+pip install git+https://github.com/facebookresearch/segment-anything.git
+```
+
