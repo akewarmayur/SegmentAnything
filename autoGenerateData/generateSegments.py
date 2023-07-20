@@ -1,23 +1,22 @@
-import clip
-import pandas as pd
+import argparse
 import glob
-from preprocessing import Preprocess
-from clipFiltering import ClipFiltering
-from segment_anything import sam_model_registry, SamPredictor
+import os
+import shutil
+import subprocess
 from typing import List
+
+import clip
 import cv2
 import numpy as np
-from segment_anything import SamPredictor
-import math
-import glob
-import torch
-import os
-import argparse
-from groundingdino.util.inference import Model
-import shutil
 import supervision as sv
+import torch
+from groundingdino.util.inference import Model
+from segment_anything import SamPredictor
+from segment_anything import sam_model_registry
+
 import class_map_config
-import subprocess
+from clipFiltering import ClipFiltering
+from preprocessing import Preprocess
 
 
 class generateData:
